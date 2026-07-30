@@ -4,11 +4,11 @@ license = "MIT"
 
 [[mods]]
 modId = "gravitycurve"
-version = "${mod_version}"
+version = "1.0.0"
 displayName = "Gravity Curve"
-authors = "YourName"
+authors = "Bapmain"
 description = '''
-Makes the Create Cosmonautics / RocketNautics gravity curve (2000 → 5000) configurable via JSON.
+Makes the Create Cosmonautics gravity curve (start_y / full_y) configurable via JSON (Datapack).
 '''
 
 [[dependencies.gravitycurve]]
@@ -28,7 +28,7 @@ side = "BOTH"
 [[dependencies.gravitycurve]]
 modId = "rocketnautics"
 type = "required"
-versionRange = "[1.0,)"
+versionRange = "[1.0.0,)"
 ordering = "NONE"
 side = "BOTH"
 
