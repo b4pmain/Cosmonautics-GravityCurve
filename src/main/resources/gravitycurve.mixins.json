@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.bapmain.gravitycurve.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GlobalSpacePhysicsHandlerMixin",
+    "GravityOverrideAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
