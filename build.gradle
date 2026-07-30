@@ -59,9 +59,14 @@ repositories {
 }
 
 dependencies {
-    implementation files("libs/cosmonautics-1.4.0rc1.jar")
+    compileOnly files("libs/cosmonautics-clean.jar")
 }
 
 tasks.withType(JavaCompile).configureEach {
-    options.encoding = 'UTF-8'
+    options.fork = true
+    options.annotationProcessorPath = files()
+    options.compilerArgs.addAll([
+            "-proc:none",
+            "-Xlint:none"
+    ])
 }

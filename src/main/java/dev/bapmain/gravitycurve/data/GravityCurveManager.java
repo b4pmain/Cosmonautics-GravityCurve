@@ -32,9 +32,7 @@ public class GravityCurveManager extends SimplePreparableReloadListener<Map<Reso
                     try (BufferedReader reader = resource.openAsReader()) {
                         JsonElement json = com.google.gson.JsonParser.parseReader(reader);
                         GravityCurveData data = GravityCurveData.CODEC.parse(JsonOps.INSTANCE, json)
-                                .getOrThrow(false, err -> {
-                                    throw new RuntimeException("Failed to parse gravity curve " + location + ": " + err);
-                                });
+                                .getOrThrow(err -> new RuntimeException("Failed to parse gravity curve " + location + ": " + err));
 
                         // data/gravitycurve/gravity_curves/minecraft/overworld.json
                         // → key = minecraft:overworld
