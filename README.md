@@ -1,25 +1,20 @@
-
-Installation information
+Cosmonautics: Gravity Curve
 =======
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+Well, technically, it is linear.
+This mod adds an ability to insert a configurable data pack to intercept hard-coded gravity cutoff values inside Cosmonautics.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
+How to Use
 ==========
+See [this directory](https://github.com/b4pmain/Cosmonautics-GravityCurve/tree/main/src/main/resources/data/gravitycurve/gravity_curves) for your datapack reference.
+
+Dependencies
+==========
+[Create Cosmonautics](https://github.com/CosmonauticsTeam/Create-Cosmonautics)
+
+Credits
+==========
+This mod uses NeoForgeMDK 1.21.1 as a template and Cosmonautics as a dependency.
+Cosmonautics: https://github.com/CosmonauticsTeam/Create-Cosmonautics
 Community Documentation: https://docs.neoforged.net/  
 NeoForged Discord: https://discord.neoforged.net/
