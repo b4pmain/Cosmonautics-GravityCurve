@@ -2,7 +2,8 @@ Cosmonautics: Gravity Curve
 =======
 
 Well, technically, it is linear.
-This mod adds an ability to insert a configurable data pack to intercept hard-coded gravity cutoff values inside Cosmonautics.
+
+<br>This mod adds an ability to insert a configurable data pack to intercept hard-coded gravity cutoff values inside Cosmonautics.
 
 How to Use
 ==========
@@ -15,6 +16,7 @@ Dependencies
 Credits
 ==========
 This mod uses NeoForgeMDK 1.21.1 as a template and Cosmonautics as a dependency.
-Cosmonautics: https://github.com/CosmonauticsTeam/Create-Cosmonautics
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+
+<br>Cosmonautics: https://github.com/CosmonauticsTeam/Create-Cosmonautics
+<br>Community Documentation: https://docs.neoforged.net/
+<br>NeoForged Discord: https://discord.neoforged.net/
